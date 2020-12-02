@@ -9,6 +9,7 @@ import javax.servlet.http.HttpSession;
 
 import model.Block;
 import model.Block1;
+import model.Block2;
 import model.Block3;
 import model.Block4;
 import model.Block5;
@@ -65,7 +66,7 @@ public class BlockDownServlet extends HttpServlet {
  			block = new Block1();
  			break;
  		case 2:
- 			block = new Block1();
+ 			block = new Block2();
  			break;
  		case 3:
  			block = new Block3();
